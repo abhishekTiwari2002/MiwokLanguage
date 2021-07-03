@@ -21,11 +21,11 @@ public class Numbers extends AppCompatActivity  {
   AudioManager.OnAudioFocusChangeListener audioFocusChangeListener=new AudioManager.OnAudioFocusChangeListener() {
       @Override
       public void onAudioFocusChange(int focusChange) {
-          if (focusChange==AudioManager.AUDIOFOCUS_GAIN){
+          if (focusChange==AudioManager.AUDIOFOCUS_GAIN && mp!=null){
               mp.start();
           }else if(focusChange==AudioManager.AUDIOFOCUS_LOSS_TRANSIENT){
-             if (mp!=null)mp.pause();
-              mp.seekTo(0);
+             if (mp!=null){mp.pause();
+              mp.seekTo(0);}
           }else if(focusChange==AudioManager.AUDIOFOCUS_LOSS){
               releaseMediaPlayer();
           }
