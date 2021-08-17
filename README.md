@@ -5,4 +5,6 @@ This app displays lists of vocabulary words for the user to learn the Miwok lang
 # Other Activites:
  
 ![Numbers](https://user-images.githubusercontent.com/86793085/129756539-08f061e3-1692-4a3e-8d0e-15f78d76f7a8.jpeg)
+![Colors](https://user-images.githubusercontent.com/86793085/129756827-4d652052-6777-44e8-887b-805cfed47b0b.jpeg)
+![Phrases](https://user-images.githubusercontent.com/86793085/129756832-8cf13309-6294-4b71-a49b-3d8bac78a97a.jpeg)
 
